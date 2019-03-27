@@ -10,15 +10,19 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var Col = _react2['default'].createClass({
   displayName: 'Col',
 
   propTypes: {
-    grow: _react2['default'].PropTypes.bool.isRequired,
-    shrink: _react2['default'].PropTypes.bool.isRequired,
-    basis: _react2['default'].PropTypes.string.isRequired,
-    padding: _react2['default'].PropTypes.oneOfType([_react2['default'].PropTypes.string, _react2['default'].PropTypes.number]).isRequired,
-    align: _react2['default'].PropTypes.string.isRequired
+    grow: _propTypes2['default'].bool.isRequired,
+    shrink: _propTypes2['default'].bool.isRequired,
+    basis: _propTypes2['default'].string.isRequired,
+    padding: _propTypes2['default'].oneOfType([_propTypes2['default'].string, _propTypes2['default'].number]).isRequired,
+    align: _propTypes2['default'].string.isRequired
   },
 
   getDefaultProps: function getDefaultProps() {

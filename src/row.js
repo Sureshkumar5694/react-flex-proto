@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Row = React.createClass({
   propTypes : {
-    align : React.PropTypes.string, // left or right
+    align : PropTypes.string, // left or right
   },
 
   getDefaultProps() {

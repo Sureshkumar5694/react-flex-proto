@@ -10,11 +10,15 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var Row = _react2['default'].createClass({
   displayName: 'Row',
 
   propTypes: {
-    align: _react2['default'].PropTypes.string },
+    align: _propTypes2['default'].string },
 
   // left or right
   getDefaultProps: function getDefaultProps() {
