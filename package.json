@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/knledg/react-flex-proto#readme",
   "peerDependencies": {
-    "react": ">=0.14.0"
+    "react": ">=15.5.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "babel": "^5.8.38"
