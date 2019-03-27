@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 
-export const Col = React.createClass({
+export const Col = createReactClass({
   propTypes : {
     grow : PropTypes.bool.isRequired,
     shrink : PropTypes.bool.isRequired,

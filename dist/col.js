@@ -14,9 +14,11 @@ var _propTypes = require('prop-types');
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var Col = _react2['default'].createClass({
-  displayName: 'Col',
+var _createReactClass = require('create-react-class');
 
+var _createReactClass2 = _interopRequireDefault(_createReactClass);
+
+var Col = (0, _createReactClass2['default'])({
   propTypes: {
     grow: _propTypes2['default'].bool.isRequired,
     shrink: _propTypes2['default'].bool.isRequired,
